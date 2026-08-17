@@ -106,7 +106,7 @@ function App() {
         />
 
         {message && (
-          <div className={`${getMessageColorByType(message.type)}`}>
+          <div className={`${getMessageColorByType(message.type)} `}>
             {" "}
             {message.content}
           </div>
